@@ -1,0 +1,87 @@
+*{font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+.header{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  height: 100px;
+}
+
+
+
+
+.footer-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.Box1{
+  background-color: yellowgreen;
+  width: 20%;
+
+  padding: 50px;
+  text-align: center;
+  height:100px;
+}
+
+.Box2{
+  background-color: yellowgreen;
+  width: 20%;
+  
+  padding: 50px;
+  text-align: center;
+}
+
+.Box3{
+  background-color: yellowgreen;
+  width: 20%;
+  padding: 50px;
+  text-align: center;
+}
+
+.Box4{
+  background-color: yellowgreen;
+  width: 20%;
+  padding: 50px;
+  text-align: center;
+}
+.Box-item{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.body{
+  display: grid;
+
+}
+
+.title{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  font-size: large;
+  text-indent: 50px;
+
+  
+}
+
+.aside{
+  text-align: center;
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  background-color: red;
+  text-align: center;
+}
+
+.Big-title{
+  background-color: gray;
+  font-size:xx-large;
+}
